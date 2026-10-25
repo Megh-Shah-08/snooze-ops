@@ -29,3 +29,5 @@ services:
     envVars:
       - key: NODE_VERSION
         value: 20.14.0
+      - key: BACKEND_URL
+        value: https://snooze-ops-backend.onrender.com
