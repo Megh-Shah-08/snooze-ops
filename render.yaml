@@ -1,0 +1,31 @@
+# Render Blueprint Specification for SnoozeOps
+# Hacktoberfest 2026: Best Use of Render ($200 Prize Category)
+services:
+  # 1. SnoozeOps Python Backend (FastAPI + Anomaly Detection + TabPFN)
+  - type: web
+    name: snooze-ops-backend
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn backend.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.4
+      - key: LLM_PROVIDER
+        value: deterministic # or 'ollama' / 'groq' / 'openai_compatible'
+      - key: ENABLE_TABPFN
+        value: "0"
+
+  # 2. SnoozeOps Next.js Frontend (TypeScript + Tailwind CSS)
+  - type: web
+    name: snooze-ops-frontend
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: cd frontend && npm install && npm run build
+    startCommand: cd frontend && npm start -- -p $PORT
+    envVars:
+      - key: NODE_VERSION
+        value: 20.14.0

@@ -1,0 +1,27 @@
+# Dockerfile for deploying Gemma 2 on Render via Ollama
+# Hacktoberfest 2026: Open-Source AI + Render
+
+FROM ollama/ollama:latest
+
+# Pre-fetch Gemma 2 (2B lightweight instruction-tuned) during container build
+# or run on startup
+EXPOSE 11434
+
+ENV OLLAMA_HOST=0.0.0.0:11434
+ENV OLLAMA_ORIGINS=*
+
+# Start ollama and pull gemma2:2b
+COPY <<-"EOF" /entrypoint.sh
+#!/bin/sh
+/bin/ollama serve &
+SERVER_PID=$!
+sleep 3
+echo "Downloading Gemma 2 (2B) weights onto Render container..."
+ollama pull gemma2:2b
+echo "Gemma 2 is ready on Render!"
+wait $SERVER_PID
+EOF
+
+RUN chmod +x /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
