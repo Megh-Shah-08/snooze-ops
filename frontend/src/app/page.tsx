@@ -503,6 +503,19 @@ export default function SnoozeOpsApp() {
               </button>
 
               <button
+                onClick={() => loadSample("saas")}
+                className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition flex items-center space-x-1.5 ${
+                  datasetName.includes("SaaS")
+                    ? "bg-indigo-600 text-white shadow-sm shadow-indigo-500/50"
+                    : "bg-slate-800 hover:bg-slate-700 text-slate-300"
+                }`}
+              >
+                <span>💼</span>
+                <span>SaaS Subscriptions</span>
+                <span className="text-[10px] opacity-75 font-normal">(60 rows)</span>
+              </button>
+
+              <button
                 onClick={() => loadSample("ground_truth")}
                 className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition flex items-center space-x-1.5 ${
                   datasetName.includes("Benchmark")

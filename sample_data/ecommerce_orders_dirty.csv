@@ -1,0 +1,46 @@
+order_id,customer_email,order_date,category,product_name,quantity,unit_price,total_amount,order_status,customer_rating
+ORD-1001,customer1@example.com,2026-09-08,Apparel,Running Shoes,1,76.19,76.19,Processing,4.5
+ORD-1002,customer2@example.com,2026-09-19,Electronics,USB-C Cable,1,15.25,15.25,Delivered,3.5
+ORD-1003,customer3@example.com,2026-09-17,Electronics,Wireless Mouse,1,28.77,28.77,Shipped,
+ORD-1004,customer4@example.com,2026-09-08,Electronics,Wireless Mouse,5,29.09,145.45,Cancelled,3.5
+ORD-1005,customer5@example.com,2026-09-25,Apparel,Denim Jeans,3,1499.0,4497.0,Delivered,4.5
+ORD-1006,customer6@example.com,2026-09-07,Apparel,Fleece Hoodie,4,44.28,177.12,Shipped,5.0
+ORD-1007,customer7@example.com,2026-09-28,Electronics,Mechanical Keyboard,1,88.91,88.91,Processing,5.0
+ORD-1008,customer8@example.com,2026-09-18,Apparel,Denim Jeans,3,61.83,185.49,Cancelled,4.0
+ORD-1009,customer9@example.com,2026-09-19,Office,Notebook 3-Pack,1,12.06,12.06,Processing,4.5
+ORD-1010,customer10@example.com,2026-09-25,Apparel,Fleece Hoodie,-4,42.96,-171.84,Shipped,5.0
+ORD-1011,customer11@example.com,2026-09-09,Electronics,Mechanical Keyboard,2,93.29,186.58,Cancelled,3.5
+ORD-1012,customer12@example.com,2026-09-07,Apparel,Running Shoes,3,77.29,231.87,Processing,5.0
+ORD-1013,customer13@example.com,2026-09-18,Apparel,Fleece Hoodie,1,45.49,45.49,Shipped,4.5
+ORD-1014,customer14@example.com,2026-09-22,Electronics,USB-C Cable,4,14.81,59.24,Shipped,5.0
+ORD-1015,customer15@example.com,2026-09-13,Electronics,Wireless Mouse,2,30.96,61.92,compelted,5.0
+ORD-1016,customer16@example.com,2026-09-07,Electronics,Mechanical Keyboard,2,93.71,187.42,Processing,3.5
+ORD-1017,customer17@example.com,2026-09-08,Office,Notebook 3-Pack,4,11.57,46.28,Shipped,
+ORD-1018,customer18@example.com,2026-09-19,Apparel,Cotton T-Shirt,3,20.48,61.44,Cancelled,3.5
+ORD-1019,customer19@example.com,2026-09-17,Office,Desk Lamp,2,29.99,599.8,Shipped,3.5
+ORD-1020,customer20@example.com,2026-09-21,Electronics,Mechanical Keyboard,1,93.24,93.24,Shipped,4.5
+ORD-1021,customer21@example.com,2026-09-13,Apparel,Running Shoes,4,80.76,323.04,Cancelled,
+ORD-1022,customer22@example.com,2026-09-22,Office,Gel Pens (Pack of 10),5,8.77,43.85,Delivered,4.0
+ORD-1023,customer23@example.com,2039-12-31,Apparel,Running Shoes,5,82.0,410.0,Processing,5.0
+ORD-1024,customer24@example.com,2026-09-17,Office,Notebook 3-Pack,2,11.94,23.88,Processing,4.5
+ORD-1025,customer25@example.com,2026-09-27,Apparel,Cotton T-Shirt,1,20.73,20.73,Processing,
+ORD-1026,customer26@example.com,2026-09-18,Apparel,Denim Jeans,2,57.91,115.82,Shipped,
+ORD-1027,customer27@example.com,2026-09-04,Electronics,Wireless Mouse,5,29.46,147.3,Delivered,5.0
+ORD-1028,invalid_email_at_nowhere,2026-09-03,Office,Ergonomic Desk Chair,2,238.94,477.88,Delivered,3.5
+ORD-1029,customer29@example.com,2026-09-22,Electronics,Mechanical Keyboard,5,92.38,461.9,Shipped,3.5
+ORD-1030,customer30@example.com,2026-09-07,Apparel,Cotton T-Shirt,2,19.52,39.04,Cancelled,
+ORD-1031,customer31@example.com,2026-09-22,Apparel,Fleece Hoodie,2,45.96,91.92,Cancelled,5.0
+ORD-1031,customer31@example.com,2026-09-22,Apparel,Fleece Hoodie,2,45.96,91.92,Cancelled,5.0
+ORD-1033,customer33@example.com,2026-09-19,Office,Desk Lamp,1,34.8,34.8,Shipped,4.5
+ORD-1034,customer34@example.com,2026-09-08,Electronics,Wireless Mouse,1,30.61,30.61,Delivered,4.0
+ORD-1035,customer35@example.com,2026-09-09,Electronics,Wireless Mouse,3,28.7,86.1,Shipped,3.5
+ORD-1036,customer36@example.com,2026-09-08,Electronics,Noise-Canceling Headphones,5,144.48,722.4,Cancelled,55.0
+ORD-1037,customer37@example.com,2026-09-12,Office,Notebook 3-Pack,2,11.51,23.02,Cancelled,3.5
+ORD-1038,customer38@example.com,2026-09-22,Office,Notebook 3-Pack,4,12.44,49.76,Delivered,4.0
+ORD-1039,customer39@example.com,2026-09-08,Electronics,Wireless Mouse,4,30.67,122.68,Delivered,4.5
+ORD-1040,customer40@example.com,2026-09-06,Electronics,Noise-Canceling Headphones,5,149.22,746.1,Cancelled,5.0
+ORD-1041,customer41@example.com,2026-09-15,Automotive_Parts_Experimental,Gel Pens (Pack of 10),2,9.33,18.66,Delivered,
+ORD-1042,customer42@example.com,2026-09-03,Electronics,Mechanical Keyboard,1,91.36,91.36,Delivered,4.5
+ORD-1043,customer43@example.com,2026-09-28,Electronics,USB-C Cable,4,14.97,59.88,Shipped,3.5
+ORD-1044,customer44@example.com,2026-09-09,Electronics,Wireless Mouse,2,29.63,59.26,Cancelled,3.5
+ORD-1045,customer45@example.com,2026-09-05,Office,Ergonomic Desk Chair,4,254.9,1019.6,Cancelled,4.5

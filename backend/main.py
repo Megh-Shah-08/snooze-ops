@@ -59,6 +59,13 @@ SAMPLE_DATASETS = {
         "description": "40 rows of medical vital statistics with impossible age (320), negative BMIs, sensor spikes (850 mmHg BP), and non-standard blood groups.",
         "category": "Healthcare & Life Sciences"
     },
+    "saas": {
+        "id": "saas",
+        "name": "SaaS Customer Subscriptions (Dirty)",
+        "filename": "saas_customer_metrics_dirty.csv",
+        "description": "60 rows of customer churn data with decimal slips ($9,900/mo spend), negative tenures, future signups, and NPS scale violations.",
+        "category": "SaaS & Cloud Revenue"
+    },
     "ground_truth": {
         "id": "ground_truth",
         "name": "Seeded Benchmark Dataset (Ground Truth)",
